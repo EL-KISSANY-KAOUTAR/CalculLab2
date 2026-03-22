@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#CFA918">
+
+    <!-- Titre -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Calcul des Impôts"
+        android:textColor="#121212"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Saisie Surface -->
+    <EditText
+        android:id="@+id/Surface"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Veuillezzzzz saisir votreeee surface "
+        android:inputType="numberDecimal"
+        android:background="@drawable/cadrageeee"
+        android:padding="12dp"
+        android:textColor="#1A237E"
+        android:textColorHint="#90A4AE"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Saisie Nombre de pièces -->
+    <EditText
+        android:id="@+id/nbpieces"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Veuillezzzz saisir le nombreeeee de pièces"
+        android:inputType="number"
+        android:background="@drawable/cadrageeee"
+        android:padding="12dp"
+        android:textColor="#1A237E"
+        android:textColorHint="#90A4AE"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- CheckBox Piscine -->
+    <CheckBox
+        android:id="@+id/checkbox_Piiscinee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Piscine"
+        android:textColor="#3C3489"
+        android:textSize="18sp" />
+
+    <!-- Bouton Calculer -->
+    <Button
+        android:id="@+id/btnCalculll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Calculer"
+        android:textColor="#633806"
+        android:backgroundTint="#FAEEDA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Résultat -->
+    <TextView
+        android:id="@+id/resultattt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
